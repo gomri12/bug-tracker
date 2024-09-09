@@ -1,0 +1,566 @@
+{
+    "schemaVersion": 1,
+    "configProperties": {
+      "name": "default"
+    },
+    "categories": [],
+    "wrappers": [
+      {
+        "id": "default",
+        "position": 0
+      }
+    ],
+    "apps": [
+      {
+        "id": "d551ceb4-f8f0-4c15-872c-545e92f31300",
+        "name": "Sonarr",
+        "url": "http://192.168.1.104:8989/",
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/sonarr.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200",
+            "301",
+            "302",
+            "304",
+            "307",
+            "308"
+          ]
+        },
+        "behaviour": {
+          "isOpeningNewTab": true,
+          "externalUrl": "http://192.168.1.104:8989/"
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "lg": {
+            "location": {
+              "x": 6,
+              "y": 1
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        },
+        "integration": {
+          "type": null,
+          "properties": []
+        }
+      },
+      {
+        "id": "5ee051c0-b336-4a20-b973-5445712cf599",
+        "name": "Transsmission",
+        "url": "http://192.168.1.104:10109/transmission/web",
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/transmission.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200",
+            "301",
+            "302",
+            "304",
+            "307",
+            "308"
+          ]
+        },
+        "behaviour": {
+          "isOpeningNewTab": true,
+          "externalUrl": "http://192.168.1.104:10109/transmission/web"
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "lg": {
+            "location": {
+              "x": 6,
+              "y": 0
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        },
+        "integration": {
+          "type": "transmission",
+          "properties": [
+            {
+              "field": "username",
+              "type": "public",
+              "value": "omri"
+            },
+            {
+              "field": "password",
+              "type": "private",
+              "value": "om11398211Sh"
+            }
+          ]
+        }
+      },
+      {
+        "id": "496a007e-4ece-4529-86fe-a60dc060a249",
+        "name": "Prowlarr",
+        "url": "http://192.168.1.104:9696/",
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/prowlarr.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200",
+            "301",
+            "302",
+            "304",
+            "307",
+            "308"
+          ]
+        },
+        "behaviour": {
+          "isOpeningNewTab": true,
+          "externalUrl": "http://192.168.1.104:9696/"
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "lg": {
+            "location": {
+              "x": 2,
+              "y": 1
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        },
+        "integration": {
+          "type": null,
+          "properties": []
+        }
+      },
+      {
+        "id": "2737115b-b0ce-476a-be21-5952bc496271",
+        "name": "Syncthing",
+        "url": "http://192.168.1.104:20910/",
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/syncthing.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200",
+            "301",
+            "302",
+            "304",
+            "307",
+            "308"
+          ]
+        },
+        "behaviour": {
+          "isOpeningNewTab": true,
+          "externalUrl": "http://192.168.1.104:20910/"
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "lg": {
+            "location": {
+              "x": 8,
+              "y": 0
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        },
+        "integration": {
+          "type": null,
+          "properties": []
+        }
+      },
+      {
+        "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a337",
+        "name": "Plex",
+        "url": "http://192.168.1.104:32400/web/index.html",
+        "behaviour": {
+          "onClickUrl": "https://discord.com/invite/aCsmEV5RgA",
+          "isOpeningNewTab": true,
+          "externalUrl": "http://192.168.1.104:32400/web/index.html",
+          "tooltipDescription": "Plex Media Server"
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200"
+          ]
+        },
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/plex.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "integration": {
+          "type": "plex",
+          "properties": [
+            {
+              "field": "apiKey",
+              "type": "private",
+              "value": "GuBTdRu9WM3wZPcq2nbn"
+            }
+          ]
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "md": {
+            "location": {
+              "x": 3,
+              "y": 1
+            },
+            "size": {
+              "width": 1,
+              "height": 1
+            }
+          },
+          "sm": {
+            "location": {
+              "x": 1,
+              "y": 4
+            },
+            "size": {
+              "width": 1,
+              "height": 1
+            }
+          },
+          "lg": {
+            "location": {
+              "x": 2,
+              "y": 0
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        }
+      },
+      {
+        "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a990",
+        "name": "NextCloud",
+        "url": "https://192.168.1.104:9001/login",
+        "behaviour": {
+          "onClickUrl": "https://ko-fi.com/ajnart",
+          "externalUrl": "https://192.168.1.104:9001/login",
+          "isOpeningNewTab": true,
+          "tooltipDescription": ""
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200"
+          ]
+        },
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/nextcloud.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "integration": {
+          "type": null,
+          "properties": []
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "md": {
+            "location": {
+              "x": 4,
+              "y": 1
+            },
+            "size": {
+              "width": 1,
+              "height": 1
+            }
+          },
+          "sm": {
+            "location": {
+              "x": 2,
+              "y": 4
+            },
+            "size": {
+              "width": 1,
+              "height": 1
+            }
+          },
+          "lg": {
+            "location": {
+              "x": 4,
+              "y": 0
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        }
+      },
+      {
+        "id": "47af36c0-47c1-4e5b-bfc7-ad645ee6a330",
+        "name": "TrueNas",
+        "url": "https://192.168.1.104",
+        "behaviour": {
+          "onClickUrl": "https://github.com/ajnart/homarr",
+          "externalUrl": "https://192.168.1.104",
+          "isOpeningNewTab": true,
+          "tooltipDescription": ""
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200"
+          ]
+        },
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/truenas-scale.png",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 2,
+          "appNameFontSize": 16
+        },
+        "integration": {
+          "type": null,
+          "properties": []
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "md": {
+            "location": {
+              "x": 3,
+              "y": 2
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          },
+          "sm": {
+            "location": {
+              "x": 1,
+              "y": 3
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          },
+          "lg": {
+            "location": {
+              "x": 0,
+              "y": 0
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        }
+      },
+      {
+        "id": "21216f15-c3dc-4c87-b609-d41ed6e7961b",
+        "name": "Home Assistant",
+        "url": "http://192.168.1.64:8123/",
+        "appearance": {
+          "iconUrl": "https://cdn.jsdelivr.net/gh/loganmarchione/homelab-svg-assets/assets/homeassistant.svg",
+          "appNameStatus": "normal",
+          "positionAppName": "row-reverse",
+          "lineClampAppName": 1,
+          "appNameFontSize": 16
+        },
+        "network": {
+          "enabledStatusChecker": true,
+          "statusCodes": [
+            "200",
+            "301",
+            "302",
+            "304",
+            "307",
+            "308"
+          ]
+        },
+        "behaviour": {
+          "isOpeningNewTab": true,
+          "externalUrl": "https://omriglam.duckdns.org/"
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "lg": {
+            "location": {
+              "x": 0,
+              "y": 1
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        },
+        "integration": {
+          "type": null,
+          "properties": []
+        }
+      }
+    ],
+    "widgets": [
+      {
+        "id": "971aa859-8570-49a1-8d34-dd5c7b3638d1",
+        "type": "date",
+        "properties": {
+          "display24HourFormat": true,
+          "dateFormat": "hide",
+          "enableTimezone": false,
+          "timezoneLocation": {
+            "name": "Paris",
+            "latitude": 48.85341,
+            "longitude": 2.3488
+          },
+          "titleState": "city"
+        },
+        "area": {
+          "type": "wrapper",
+          "properties": {
+            "id": "default"
+          }
+        },
+        "shape": {
+          "sm": {
+            "location": {
+              "x": 1,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 1
+            }
+          },
+          "md": {
+            "location": {
+              "x": 4,
+              "y": 0
+            },
+            "size": {
+              "width": 1,
+              "height": 1
+            }
+          },
+          "lg": {
+            "location": {
+              "x": 4,
+              "y": 1
+            },
+            "size": {
+              "width": 2,
+              "height": 1
+            }
+          }
+        }
+      }
+    ],
+    "settings": {
+      "common": {
+        "searchEngine": {
+          "type": "google",
+          "properties": {}
+        }
+      },
+      "customization": {
+        "layout": {
+          "enabledLeftSidebar": false,
+          "enabledRightSidebar": false,
+          "enabledDocker": false,
+          "enabledPing": true,
+          "enabledSearchbar": true
+        },
+        "pageTitle": "Omri's Home Server ⭐️",
+        "logoImageUrl": "/imgs/logo/logo.png",
+        "faviconUrl": "/imgs/favicon/favicon-squared.png",
+        "backgroundImageUrl": "https://cdn.pixabay.com/photo/2015/11/07/19/19/nature-1032523_1280.jpg",
+        "customCss": "",
+        "colors": {
+          "primary": "red",
+          "secondary": "yellow",
+          "shade": 9
+        },
+        "appOpacity": 60,
+        "gridstack": {
+          "columnCountSmall": 3,
+          "columnCountMedium": 6,
+          "columnCountLarge": 10
+        }
+      },
+      "access": {
+        "allowGuests": false
+      }
+    }
+  }
